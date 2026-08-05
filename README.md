@@ -339,4 +339,4 @@ Burns, B., Beda, J., & Hightower, K. (2019). Kubernetes: Up and Running (2a ed.)
 
 **X. CRONOGRAMA**
 
-![Cronograma INF560](images/image1.png){width="6.53125in" height="1.7277777777777779in"}
+![Cronograma INF560](images/image1.png)
