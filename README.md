@@ -8,33 +8,22 @@
 
 **I. IDENTIFICACIÓN DE LA ASIGNATURA**
 
-+--------------------------------------+---------------------------------+
-| **Facultad:**                        | **Carrera:**                    |
-|                                      |                                 |
-| Ciencias Puras                       | Ingeniería Informática          |
-+======================================+=================================+
-| **Asignatura:**                      | **Sigla y código:**             |
-|                                      |                                 |
-| Desarrollo web backend               | INF 560                         |
-+--------------------------------------+---------------------------------+
-| **Pre-Requisito:**                   | **TOTAL, HORAS:**               |
-|                                      |                                 |
-| INF 460                              | 6 horas                         |
-+--------------------------------------+---------------------------------+
-| **Trabajo Independiente semana:**    | **Número de créditos:**         |
-|                                      |                                 |
-| 6 horas                              | 6                               |
-+--------------------------------------+---------------------------------+
-| **Horas teóricas**: 0                | **Semestre:**                   |
-|                                      |                                 |
-| **Horas prácticas:** 0               | Quinto Semestre                 |
-|                                      |                                 |
-| **Horas laboratorio:** 6             |                                 |
-+--------------------------------------+---------------------------------+
-| **Docente:**                         | **Email:**                      |
-|                                      |                                 |
-| M. Sc. Huáscar Fedor Gonzales Guzmán | <huascar.fedor@gmail.com>       |
-+--------------------------------------+---------------------------------+
+| Campo | Detalle |
+|-------|---------|
+| **Facultad** | Ciencias Puras |
+| **Carrera** | Ingeniería Informática |
+| **Asignatura** | Desarrollo web backend |
+| **Sigla y código** | INF 560 |
+| **Pre-requisito** | INF 460 |
+| **Total horas** | 6 horas |
+| **Trabajo independiente semana** | 6 horas |
+| **Número de créditos** | 6 |
+| **Horas teóricas** | 0 |
+| **Horas prácticas** | 0 |
+| **Horas laboratorio** | 6 |
+| **Semestre** | Quinto Semestre |
+| **Docente** | M. Sc. Huáscar Fedor Gonzales Guzmán |
+| **Email** | huascar.fedor@gmail.com |
 
 **II. FUNDAMENTACIÓN Y JUSTIFICACION**
 
@@ -70,31 +59,9 @@ Al finalizar la asignatura, el estudiante será capaz de:
 
 **V. DESARROLLO DE SABERES DE LA ASIGNATURA**
 
-+-------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+
-| **Saber conocer**                                                                                     | **Saber hacer**                                                                                                     | **Saber ser**                                                                                                     |
-+=======================================================================================================+=====================================================================================================================+===================================================================================================================+
-| \- Conceptos fundamentales del desarrollo web y el rol del backend en una aplicación                  | \- Configurar entornos de desarrollo backend utilizando frameworks como Laravel y Node.js/Express                   | \- Responsabilidad y compromiso en la entrega de soluciones de software funcionales y de calidad                  |
-|                                                                                                       |                                                                                                                     |                                                                                                                   |
-| \- Diferencias entre arquitecturas monolíticas y de microservicios                                    | \- Implementar aplicaciones web funcionales bajo el patrón MVC integrando vistas, lógica de negocio y base de datos | \- Pensamiento crítico para analizar, seleccionar y justificar tecnologías backend según el contexto del proyecto |
-|                                                                                                       |                                                                                                                     |                                                                                                                   |
-| \- Funcionamiento del protocolo HTTP: métodos, cabeceras y códigos de estado                          | \- Desarrollar operaciones CRUD completas con validación y manejo de errores                                        | \- Disposición para el aprendizaje continuo ante la constante evolución de las tecnologías web                    |
-|                                                                                                       |                                                                                                                     |                                                                                                                   |
-| \- Tecnologías, lenguajes y frameworks del desarrollo del lado del servidor                           | \- Gestionar sesiones, cookies y autenticación básica en aplicaciones web                                           | \- Atención al detalle en la escritura de código limpio, organizado y mantenible                                  |
-|                                                                                                       |                                                                                                                     |                                                                                                                   |
-| \- Estructura y funcionamiento del patrón de diseño MVC                                               | \- Diseñar e implementar API REST aplicando buenas prácticas y estándares de la industria                           | \- Trabajo colaborativo y comunicación efectiva en entornos de desarrollo de software                             |
-|                                                                                                       |                                                                                                                     |                                                                                                                   |
-| \- Principios de programación del lado del servidor: ciclo de vida de solicitudes, sesiones y cookies | \- Aplicar mecanismos de autenticación y autorización mediante JWT y OAuth2                                         | \- Ética profesional en el manejo de datos, seguridad y privacidad de los usuarios                                |
-|                                                                                                       |                                                                                                                     |                                                                                                                   |
-| \- Conceptos de ORM, migraciones y relaciones entre modelos                                           | \- Documentar API utilizando herramientas como Swagger / OpenAPI                                                    | \- Autonomía e iniciativa para resolver problemas técnicos de manera creativa y eficiente                         |
-|                                                                                                       |                                                                                                                     |                                                                                                                   |
-| \- Fundamentos de API REST: recursos, endpoints, métodos y códigos de estado                          | \- Desplegar aplicaciones web en entornos de producción utilizando servicios en la nube y contenedores              | \- Adaptabilidad ante nuevos frameworks, herramientas y metodologías de desarrollo                                |
-|                                                                                                       |                                                                                                                     |                                                                                                                   |
-| \- Mecanismos de autenticación y autorización: JWT y OAuth2                                           | \- Configurar arquitecturas escalables y tolerantes a fallos en entornos de producción                              |                                                                                                                   |
-|                                                                                                       |                                                                                                                     |                                                                                                                   |
-| \- Modalidades de alojamiento web: tradicional, en la nube y contenedores                             |                                                                                                                     |                                                                                                                   |
-|                                                                                                       |                                                                                                                     |                                                                                                                   |
-| \- Principios de arquitecturas escalables y tolerantes a fallos                                       |                                                                                                                     |                                                                                                                   |
-+-------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+
+| Saber conocer | Saber hacer | Saber ser |
+|---------------|-------------|-----------|
+| • Conceptos fundamentales del desarrollo web y el rol del backend en una aplicación<br>• Diferencias entre arquitecturas monolíticas y de microservicios<br>• Funcionamiento del protocolo HTTP: métodos, cabeceras y códigos de estado<br>• Tecnologías, lenguajes y frameworks del desarrollo del lado del servidor<br>• Estructura y funcionamiento del patrón de diseño MVC<br>• Principios de programación del lado del servidor: ciclo de vida de solicitudes, sesiones y cookies<br>• Conceptos de ORM, migraciones y relaciones entre modelos<br>• Fundamentos de API REST: recursos, endpoints, métodos y códigos de estado<br>• Mecanismos de autenticación y autorización: JWT y OAuth2<br>• Modalidades de alojamiento web: tradicional, en la nube y contenedores<br>• Principios de arquitecturas escalables y tolerantes a fallos | • Configurar entornos de desarrollo backend utilizando frameworks como Laravel y Node.js/Express<br>• Implementar aplicaciones web funcionales bajo el patrón MVC integrando vistas, lógica de negocio y base de datos<br>• Desarrollar operaciones CRUD completas con validación y manejo de errores<br>• Gestionar sesiones, cookies y autenticación básica en aplicaciones web<br>• Diseñar e implementar API REST aplicando buenas prácticas y estándares de la industria<br>• Aplicar mecanismos de autenticación y autorización mediante JWT y OAuth2<br>• Documentar API utilizando herramientas como Swagger / OpenAPI<br>• Desplegar aplicaciones web en entornos de producción utilizando servicios en la nube y contenedores<br>• Configurar arquitecturas escalables y tolerantes a fallos en entornos de producción | • Responsabilidad y compromiso en la entrega de soluciones de software funcionales y de calidad<br>• Pensamiento crítico para analizar, seleccionar y justificar tecnologías backend según el contexto del proyecto<br>• Disposición para el aprendizaje continuo ante la constante evolución de las tecnologías web<br>• Atención al detalle en la escritura de código limpio, organizado y mantenible<br>• Trabajo colaborativo y comunicación efectiva en entornos de desarrollo de software<br>• Ética profesional en el manejo de datos, seguridad y privacidad de los usuarios<br>• Autonomía e iniciativa para resolver problemas técnicos de manera creativa y eficiente<br>• Adaptabilidad ante nuevos frameworks, herramientas y metodologías de desarrollo |
 
 **VI. CONTENIDOS TEMÁTICOS DE LA ASIGNATURA**
 
@@ -344,17 +311,11 @@ EXÁMEN FINAL: 30%
 
 TOTAL: 100%
 
-+------------------------+------------------------------------------------+------------------------------------------------+--------------------------------------------------------+-------------------------------+
-| **TIPO DE EVALUACIÓN** | **TÉCNICA**                                    | **INSTRUMENTO**                                | **EVIDENCIA**                                          | **ENTORNO**                   |
-+========================+================================================+================================================+========================================================+===============================+
-| **DIAGNOSTICA**        | Interrogatorio (Presencial y/o virtual)        | Guía de observación (Presencial y/o virtual)   | Cuestionario resuelto (Presencial y/o virtual)         | Aula (Presencial y/o virtual) |
-+------------------------+------------------------------------------------+------------------------------------------------+--------------------------------------------------------+-------------------------------+
-| **FORMATIVA**          | Desempeño (Presencial y/o virtual)             | Prueba de laboratorio (Presencial y/o virtual) | Presentación, exposición (Presencial y/o virtual)      | Aula (Presencial y/o virtual) |
-+------------------------+------------------------------------------------+------------------------------------------------+--------------------------------------------------------+-------------------------------+
-| **SUMATIVA**           | Enunciado, ejercicios (Presencial y/o virtual) | Prueba de laboratorio (Presencial y/o virtual) | Presentación de trabajo final (Presencial y/o virtual) | Aula (Presencial y/o virtual) |
-|                        |                                                |                                                |                                                        |                               |
-| **/PRODUCTO**          |                                                |                                                |                                                        |                               |
-+------------------------+------------------------------------------------+------------------------------------------------+--------------------------------------------------------+-------------------------------+
+| Tipo de evaluación | Técnica | Instrumento | Evidencia | Entorno |
+|--------------------|---------|-------------|-----------|---------|
+| **Diagnóstica** | Interrogatorio (presencial y/o virtual) | Guía de observación (presencial y/o virtual) | Cuestionario resuelto (presencial y/o virtual) | Aula (presencial y/o virtual) |
+| **Formativa** | Desempeño (presencial y/o virtual) | Prueba de laboratorio (presencial y/o virtual) | Presentación, exposición (presencial y/o virtual) | Aula (presencial y/o virtual) |
+| **Sumativa / Producto** | Enunciado, ejercicios (presencial y/o virtual) | Prueba de laboratorio (presencial y/o virtual) | Presentación de trabajo final (presencial y/o virtual) | Aula (presencial y/o virtual) |
 
 **IX. BIBLIOGRAFÍA**
 
@@ -378,4 +339,4 @@ Burns, B., Beda, J., & Hightower, K. (2019). Kubernetes: Up and Running (2a ed.)
 
 **X. CRONOGRAMA**
 
-![](iamges/image1.png){width="6.53125in" height="1.7277777777777779in"}
+![Cronograma INF560](images/image1.png){width="6.53125in" height="1.7277777777777779in"}
